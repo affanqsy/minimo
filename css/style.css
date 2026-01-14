@@ -1,0 +1,249 @@
+@font-face{
+	src:ulr(../fonts/Ubuntu-Bold.ttf);
+	font-family:Ubuntu-Bold.ttf;
+}
+@font-face{
+	src:url(../fonts/Ubuntu-Regular.ttf);
+	font-family:Ubuntu-Regular.ttf;
+}
+/*n css beg*/
+body{
+	margin:0;
+	font-family:"palyfair display", serif;
+	font-weight:400;
+	font-size: 16px;
+	color:#626262;
+}
+.width100{
+	width:100%;
+}
+/*n css end*/
+/*Header beggins*/
+header{
+	padding:50px 0;
+}
+.layout{
+	overflow:hidden;
+	margin:0 auto;
+	width:90%;}
+.logo{
+	float:left;
+	width:10%;
+}
+.menu{
+	margin-top:5px;
+	float:right;
+	width:70%;
+}
+.menu ul{
+	margin:0;
+	float:right;
+	list-style:none;
+}
+.menu ul li{
+	float:left;
+}
+.menu ul li a{
+	margin:0 40px;
+	display:inline-block;
+	color:#626262;
+	text-decoration:none;
+	text-transform:uppercase;
+	border-bottom:1px solid transparent;
+	transition:linear .33s;
+}
+
+.menu ul li:last-child a{
+	margin-right:0;
+}
+.menu ul li a:hover{
+	border-bottom:1px solid #626262;
+}
+/*Header ends*/
+/*article beggins*/
+.article{
+	padding: 100px 20px;
+	margin: 0;
+}
+.container-2{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 80%;
+}
+.a-content{}
+.lite{
+	margin: 0;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-weight: 300;
+	text-transform:uppercase;
+	color: #626262;
+}
+.title{
+	margin: 15px 0 25px;
+	font-size: 30px;
+	font-weight: 700;
+}
+.text{
+	margin: 15px 0 35px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+}
+.a_link{
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-weight: 300;
+	color: #626262;
+	display: inline-block;
+	text-transform:uppercase;
+	text-decoration: none;
+	border-bottom:1px solid transparent;
+	transition:linear .25s;
+}
+.a_link:hover{
+	border-bottom:1px solid #626262;	
+}
+/*article ends*/
+/*feature beggins*/
+.blog{
+	padding: 0 0 100px;
+}
+.box{
+	margin-top: 80px;
+	float: left;
+	width: 47%;
+}
+.box:nth-child(even){
+	margin-left: 6%;
+}
+.box:nth-child(2){
+	margin-top: 0;
+}
+.box:first-child{
+	margin-top: 0;
+}
+.box_img{
+	margin-bottom: 10px;
+}
+.box h2{
+	font-size: 30px;
+}
+/*feture ends*/
+/*submit begginss*/
+.news{
+	background-color: #f0f0f0;
+	padding: 70px 0;
+}
+.sign-up{
+	text-align: center;
+}
+.h_s{
+	color: #333333;
+	margin-top: 0;
+	margin-bottom: 70px;
+}
+.form1{
+	width: 400px;
+	position: relative;
+	margin: 0 auto;
+}
+.form1 input{
+	padding-left: 10px;
+	padding-right: 50px;
+	background: transparent;
+	width: 345px;
+	height: 45px;
+	font-family:"palyfair display", serif;
+	font-size: 14px;
+	color:#626262;
+	border: none;
+	border-bottom: 1.5px solid #000000;
+}
+.form1 input:focus{
+	outline: 0;
+}
+.form1 button{
+	position: absolute;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	top: 15px;
+	right: 0;
+}
+.form1 button:focus{
+	padding: 100px 0;
+	outline: 0;}
+.form1 button img{}
+/*submit ends*/
+/*is*/
+.blog2{
+	padding-top: 90px;
+}
+.load{
+	padding: 100px 0 0;
+	text-align: center;
+}
+.l_btn{
+	padding: 16px 33px;
+	background-color: transparent;
+	border: 1px solid #626262;
+	font-family:"palyfair display", serif;
+	font-weight:400;
+	font-size: 20px;
+	color:#626262;
+	transition: linear .30s;
+}
+.l_btn:hover{
+	background-color: #626262;
+	color: white;
+}
+/*is*/
+footer{
+	padding:50px 0;
+	background-color: #f0f0f1;
+}
+.left{
+	float: left;
+	width: 30%;
+}
+.left ul{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	list-style:none;
+}
+.left ul li{
+	float: left;
+}
+.left ul li a{
+	margin-right: 15px;
+	display:inline-block;
+	text-decoration:none;
+	color: #000000;
+}
+.right{
+	float: right;
+	width: 30%;
+}
+.right ul{
+	margin: 0;
+	padding: 0;
+	float: right;
+	list-style:none;
+}
+.right ul li{
+	float: left;
+}
+.right ul li a{
+	margin-right: 15PX;
+	display:inline-block;
+	text-decoration:none;
+}
+.right ul li:last-child a{
+	margin-right: 0;
+}
+.right ul li span{
+	display: inline-block;
+	margin-right: 15PX;
+}
